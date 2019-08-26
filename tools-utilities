@@ -1,0 +1,18 @@
+#########################################
+Linux
+#########################################
+telent [HOST] [PORT]
+
+nc -v [HOST] [PORT]
+
+netstat -pant
+
+
+########################################
+Windows
+########################################
+netstat -ano | findstr
+
+ipconfig
+
+ipconfig/flushdns
